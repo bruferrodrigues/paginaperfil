@@ -27,5 +27,28 @@ ol {
 
 p{
     margin: 16px;
+}
 
+h2 {
+    color: green;
+    text-align: left;
+}
+
+.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 400px;
+    width: 700px;
+}
+
+.container{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+    transform:translateX(0);
+}
+
+img{
+    object-fit: cover;
+    height: 400px;
+    width: 700px;
 }
